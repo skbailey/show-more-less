@@ -1,0 +1,41 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/respire.css')
+  body
+    block content
+    p.large-text
+      | Ahmed Shihab-Eldin is an Emmy-nominated journalist, social-media addict & news producer. 
+      | Ahmed was featured on Forbes’ 30 Under 30 list of ‘young disruptors, innovators and media 
+      | entrepreneurs impatient to change the world’ in 2012. That same year, Ahmed left Al Jazeera 
+      | English and joined HuffPost Live as a founding member,where he currently hosts and works as 
+      | a producer for what Mashable’s readers chose as the most innovative media product to emerge 
+      | in 2012. In 2011, Ahmed created, produced and co-hosted Al Jazeera English’s groundbreaking 
+      | social media show, “The Stream," an award-winning interactive talk show, which sources stories 
+      | from social networks around the globe. “Bahrain: The Social Media Battle Continues", a 45 
+      | minute TV program Ahmed produced and co-hosted, was nominated for an Emmy Award for Most 
+      | Innovative Program. Before joining Al Jazeera English, Ahmed worked for The Doha Film Institute, 
+      | where he worked as a correspondent and head of online content for the inaugural Doha Tribeca 
+      | Film Festival. Before Qatar, Ahmed worked as an interactivew producer at PBS’s award-winning 
+      | documentary series Wide Angle, a producer for The New York Times and as a freelance videographer 
+      | reporter for organizations including PBS’s FRONTLINE/World as well as the Rockefeller Foundation. 
+      | Ahmeds has worked in Lebanon, Qatar, UAE, Egypt, Jordan and from other places across the region 
+      | and United States. His reporting has appeared in WNYC, Time Out Magazine and syndicated newspapers 
+      | across the country. Ahmed was honored with the 2013 Professional Excellence Award by NAAP-NY. 
+      | Soon after graduating with honors from Columbia University’s Graduate School of Journalism, Ahmed 
+      | started teaching digital and social media as an adjunct professor, as well as advising master’s 
+      | projects and serving as a consultant on News21, a collaboration of 12 journalism schools under 
+      | the Carnegie-Knight initiative on the Future of Journalism Education. Ahmed has spoken at 
+      | international media and technology conferences across the globe, including the Google’s Zeitgeist 
+      | 2011 in the UK and the US. His Masters Project, DefiningMiddleGround.com, won a Webby Award in 2008. 
+      | Ahmed co-edited the new book, Demanding Dignity: Young Voices from the Front Lines of the Arab 
+      | Revolutions. Born in California, Ahmed spent most of his formative years between Kuwait, Austria, 
+      | California, and Egypt, where he lived for nearly a decade. His parents were born in Palestine and 
+      | he speaks English, Arabic, French and German.
+      a.toggle(href="#") Show Less
+    script(src="/javascripts/jquery.js")
+    script(src="/javascripts/respire.js")
+    script
+      $('.large-text').respire();
