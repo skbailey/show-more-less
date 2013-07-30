@@ -9,7 +9,9 @@ html
     p.large-text
       | Ahmed Shihab-Eldin is an Emmy-nominated journalist, social-media addict & news producer. 
       | Ahmed was featured on Forbes’ 30 Under 30 list of ‘young disruptors, innovators and media 
-      | entrepreneurs impatient to change the world’ in 2012. That same year, Ahmed left Al Jazeera 
+      | entrepreneurs impatient to change the world’ in 2012. 
+      a(href="#") Sample Link
+      | That same year, Ahmed left Al Jazeera 
       | English and joined HuffPost Live as a founding member,where he currently hosts and works as 
       | a producer for what Mashable’s readers chose as the most innovative media product to emerge 
       | in 2012. In 2011, Ahmed created, produced and co-hosted Al Jazeera English’s groundbreaking 
@@ -34,8 +36,10 @@ html
       | Revolutions. Born in California, Ahmed spent most of his formative years between Kuwait, Austria, 
       | California, and Egypt, where he lived for nearly a decade. His parents were born in Palestine and 
       | he speaks English, Arabic, French and German.
-      a.toggle(href="#") Show Less
+      strong Ahmed Shihab-Eldin
+      em Blogger, Host
+      a.toggle(href="#") Show More
     script(src="/javascripts/jquery.js")
     script(src="/javascripts/respire.js")
     script
-      $('.large-text').respire();
+      $('.large-text').respire({toggleBtn: '.toggle', truncateLength: 400 });
